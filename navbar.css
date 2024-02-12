@@ -1,108 +1,143 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
 
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   background: #FF8412 !important;
 }
 
 /* universal CSS */
-.bg-orange{
+.bg-orange {
   background: #FF8412;
 }
 
-.bg-button{
+.bg-button {
   background-color: #FF8412 !important;
+  border-radius: 50px !important;
 }
 
-.text-white{
+.bg-blue {
+  background-color: #2B275A !important;
+  border-radius: 50px !important;
+}
+
+.bg-gray{
+  background-color: #F3F2FD;
+  border-radius: 50px !important;
+}
+.text-white {
   color: #FFFFFF;
 }
 
-.text-orange{
+.text-orange {
   color: #FFA047;
 }
 
-.text-blue{
+.text-blue {
   color: #2B275A;
 }
 
-.font-6{
-    font-size: 6px;
+.font-6 {
+  font-size: 6px;
 }
 
-.font-12{
-    font-size: 12px;
+.font-12 {
+  font-size: 12px;
 }
 
-.font-13{
-    font-size: 13px; 
+.font-13 {
+  font-size: 13px;
 }
 
-.font-10{
-    font-size: 10px;
+.font-10 {
+  font-size: 10px;
 }
 
-.font-16{
-    font-size: 16px;
+.font-15{
+  font-size: 15px;
 }
 
-.font-20{
-    font-size: 20px;
+.font-16 {
+  font-size: 16px;
 }
 
-.font-32{
-    font-size: 32px;
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24{
+  font-size: 24px;
+}
+
+.font-32 {
+  font-size: 32px;
 }
 
 
 /* input group */
-.input-group-text {
-    display: flex;
-    align-items: center;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #fff !important;
-    border: none !important;
-    /* border-radius: 0.25rem; */
-    /* border-radius: 50px; */
-    border-right: none !important;
+
+
+input::placeholder {
+  font-size: 16px !important;
+  color: 2B275A !important;
+  font-weight: bold !important;
+  padding-left: 15px !important;
+  z-index: 2 !important;
 }
 
-input::placeholder{
-    font-size: 16px !important;
-    color: 2B275A !important;
-    font-weight: bold !important;
+.form-control {
+  border-radius: 20px 20px !important;
 }
 
-
-.form-control{
-    border-radius: 0px 50px 50px 0px !important;
-} 
 
 form {
-    background-color: #2B275A !important;
+  background-color: #2B275A !important;
   border-radius: 50px;
-  }
+}
 
-  .rectangle{
-    border: 1px solid #FFFFFF;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-  }
+.arrow-block {
+  top: 10px;
+  position: absolute;
+  right: 18px;
+  font-size: 20px;
+}
 
-  .dr-info{
-    margin-left: 10px;
-  }
+.icon {
+  position: absolute;
+  left: 13px;
+  top: 15px;
+  z-index: 1;
+}
+
+/* address block css */
+.block1{
+  background: #FFFFFF !important;
+  border-radius: 20px;
+  height: 180px;
+  width: 150px;
+}
+
+.block2{
+  height: 150px;
+  width: 150px;
+  background: transparent !important;
+  border-radius: 20px;
+}
+
+/* doctor block */
+.rectangle {
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+}
+
+.dr-info {
+  margin-left: 10px;
+}
+
