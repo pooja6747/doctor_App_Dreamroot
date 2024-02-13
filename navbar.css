@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+/* .kumbh-sans-<uniquifier> {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+} */
 
 
 * {
@@ -8,7 +18,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   background: #FF8412 !important;
 }
 
@@ -123,11 +133,36 @@ form {
   width: 150px;
 }
 
-.block2{
+/* .block2{
+  margin-top: 0.5rem;
+  padding: 0.2rem;
   height: 150px;
   width: 150px;
-  background: transparent !important;
+  background: rgb(241, 224, 194) !important;
   border-radius: 20px;
+} */
+
+.img-rectangle-teeth{
+  height: 320px;
+  width: 13rem;
+}
+
+.up-arrow{
+  left: 5.5rem;
+    top: 32rem;
+    position: absolute;
+}
+
+.money-icon{
+  z-index: 1;
+  bottom: 13rem;
+    right: 0;
+    position: absolute;
+}
+
+.para{
+  line-height: normal;
+  margin-top: 5px;
 }
 
 /* doctor block */
@@ -141,3 +176,13 @@ form {
   margin-left: 10px;
 }
 
+.example {
+  position: relative;
+  }
+
+.example p {
+  line-height: 17px;
+    left: 11px;
+    top: 0;
+    position: absolute;
+  }
