@@ -112,7 +112,7 @@ form {
 }
 
 .arrow-block {
-  top: 19px;
+  top: 15px;
   position: absolute;
   right: 23px;
   font-size: 21px;
@@ -120,8 +120,8 @@ form {
 
 .icon {
   position: absolute;
-    left: 15px;
-    top: 23px;
+    left: 18px;
+    top: 20px;
     z-index: 1;
 }
 
