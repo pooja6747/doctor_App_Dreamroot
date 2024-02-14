@@ -170,6 +170,7 @@ form {
   border: 1px solid #FFFFFF;
   border-radius: 25px;
   background-color: #FFFFFF;
+  padding-right: 2px;
 }
 
 .dr-info {
@@ -185,4 +186,9 @@ form {
     left: 11px;
     top: 0;
     position: absolute;
+  }
+
+
+  .icon-img{
+    padding-right: 6px !important;
   }
