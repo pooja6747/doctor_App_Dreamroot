@@ -102,7 +102,7 @@ input::placeholder {
 }
 
 .form-control {
-  border-radius: 20px 20px !important;
+  border-radius: 25px 25px !important;
 }
 
 
@@ -112,17 +112,17 @@ form {
 }
 
 .arrow-block {
-  top: 14px;
+  top: 19px;
   position: absolute;
-  right: 18px;
-  font-size: 20px;
+  right: 23px;
+  font-size: 21px;
 }
 
 .icon {
   position: absolute;
-  left: 13px;
-  top: 18px;
-  z-index: 1;
+    left: 15px;
+    top: 23px;
+    z-index: 1;
 }
 
 /* address block css */
